@@ -1,3 +1,4 @@
+/* Set Up */
 * {
   margin: 0;
   box-sizing: border-box;
@@ -6,46 +7,88 @@
   padding-bottom: 8px;
   font-family: sans-serif;
 }
-
 h1, h2, h3, h4, h5, h6 {
   font-weight: 800;
 }
 
+/* Banner */
 .banner {
   padding-bottom: 0px;
-  border-bottom: 1.5px solid #4D4D4D;
 }
-.banner > * {
+.banner h1 {
   background-color: #5D5D5D;
   color: #D6D6D6;
   padding: 20px 0px 10px 30px;
   font-family: monospace;
   font-size: 48px;
+  border-bottom: 2px solid #4D4D4D;
 }
 
+/* Navigation Bar */
+.nav-bar {
+  margin: 0px;
+  padding: 0px;
+}
+.nav-bar ul {
+  overflow: hidden;
+  padding: 0px;
+  border-bottom: 1.5px solid #4D4D4D;
+}
+.nav-bar li {
+  float: left;
+  list-style-type: none;
+  padding: 0px;
+}
+.nav-bar li:last-child {
+  float: right;
+}
+.nav-bar a {
+  display: block;
+  text-decoration: none;
+  padding: 5px 30px;
+  border-right: 1.5px solid #4D4D4D;
+}
+.nav-bar li:last-child a {
+  border-right: none;
+  border-left: 1.5px solid #4D4D4D;
+}
+.nav-bar a:hover {
+  background-color: #5D5D5D;
+  color: #D6D6D6;
+}
+.nav-bar a:active {
+  background-color: #4D4D4D;
+  color: #D6D6D6;
+}
+.curr-page {
+  background-color: #5D5D5D;
+  color: #D6D6D6;
+}
+
+/* Main Page*/
 .main-page {
   padding: 10px 50px;
+}
+.main-page li {
+  padding-bottom: 2.5px;
+}
+.main-page a {
+  text-decoration: none;
+  font-style: italic;
+  color: #2C2C2C;
+}
+.main-page a:hover {
+  color: #006686;
+}
+.main-page a:active {
+  color: #768600;
 }
 
 hr {
   padding: 0;
 }
-li {
-  padding-bottom: 2.5px;
-}
 
-a {
-  text-decoration: none;
-  font-style: italic;
-  color: #2C2C2C;
-}
-a:hover {
-  color: #006686;
-}
-a:active {
-  color: #768600;
-}
-
+/* Contact */
 .contact {
   padding: 10px 50px;
 }
