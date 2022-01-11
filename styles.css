@@ -1,1 +1,51 @@
-first commit
+* {
+  margin: 0;
+  box-sizing: border-box;
+  background-color: #D6D6D6;
+  color: #5D5D5D;
+  padding-bottom: 8px;
+  font-family: sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+.banner {
+  padding-bottom: 0px;
+  border-bottom: 1.5px solid #4D4D4D;
+}
+.banner > * {
+  background-color: #5D5D5D;
+  color: #D6D6D6;
+  padding: 20px 0px 10px 30px;
+  font-family: monospace;
+  font-size: 48px;
+}
+
+.main-page {
+  padding: 10px 50px;
+}
+
+hr {
+  padding: 0;
+}
+li {
+  padding-bottom: 2.5px;
+}
+
+a {
+  text-decoration: none;
+  font-style: italic;
+  color: #2C2C2C;
+}
+a:hover {
+  color: #006686;
+}
+a:active {
+  color: #768600;
+}
+
+.contact {
+  padding: 10px 50px;
+}
