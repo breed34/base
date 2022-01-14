@@ -54,6 +54,11 @@
   background-color: #353333;
 }
 
+.base {
+  width: 100%;
+  background-color: #ACD3E2;
+}
+
 .content {
   display: flex;
   background-color: #ACD3E2;
@@ -128,7 +133,8 @@
   width: 100%;
   background-color: #635D5D;
   text-align: center;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 10%;
   color: #353333;
 }
 
@@ -191,6 +197,10 @@ h3 {
     float: right;
   }
 
+  .base {
+      padding-bottom: 20%;
+  }
+
   .general-info {
     width: 30%;
     margin: 20px;
@@ -212,12 +222,20 @@ h3 {
     flex-wrap: wrap;
     width: 30%;
     margin: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
   }
   .projects,
   .work-exp {
     width: 100%;
     padding: 20px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
+    align-items: center;
+  }
+  .projects p,
+  .work-exp p {
+    width: 100%;
   }
 }
